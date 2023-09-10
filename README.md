@@ -27,7 +27,7 @@ The area to be covered by the chart is specified using a **SkyArea** object, whi
 <img src="https://codebox.net/assets/images/star-charts-with-python/northern_sky.png" height="420px" width="420px" class="" alt="Star Chart showing the northern sky" />
 <img src="https://codebox.net/assets/images/star-charts-with-python/southern_sky.png" height="420px" width="420px" class="" alt="Star Chart showing the southern sky" />
 
-<sup>Maps of the Northern and Southern skies, showing stars down to magnitude 7 (original SVGs: [North](https://codebox.net/assets/images/star-charts-with-python/northern_sky.svg) and [South](https://codebox.net/assets/images/star-charts-with-python/southern_sky.svg)</sup>
+<sup>Maps of the Northern and Southern skies, showing stars down to magnitude 7 (original SVGs: [North](https://codebox.net/assets/images/star-charts-with-python/northern_sky.svg) and [South](https://codebox.net/assets/images/star-charts-with-python/southern_sky.svg)</sup>)
 
 ## About the code
 
