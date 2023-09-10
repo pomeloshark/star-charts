@@ -8,10 +8,10 @@ This Python script will generate SVG star charts, like the ones shown below:
 The script reads data about the position and brightness of stars from a CSV (comma-separated value) file like [this one](https://raw.githubusercontent.com/codebox/star-charts/master/stardata.csv).
 Each row in the CSV file contains information about a single star in 4 columns, as follows:
 
-* **Right ascension**: the star's angular distance eastward from the vernal equinox (0 to 24)
-* **Declination**: the star's angular distance northward from the celestial equator (-90 to +90)
-* **Magnitude**: the star's brightness
-* **Label**: an optional field used to add labels to stars (see the Greek letters in the example chart above)
++ **Right ascension**: the star's angular distance eastward from the vernal equinox (0 to 24)
++ **Declination**: the star's angular distance northward from the celestial equator (-90 to +90)
++ **Magnitude**: the star's brightness
++ **Label**: an optional field used to add labels to stars (see the Greek letters in the example chart above)
 
 For example:
 
@@ -29,12 +29,22 @@ The area to be covered by the chart is specified using a **SkyArea** object, whi
 
 <sup>Maps of the Northern and Southern skies, showing stars down to magnitude 7 (original SVGs: [North](https://codebox.net/assets/images/star-charts-with-python/northern_sky.svg) and [South](https://codebox.net/assets/images/star-charts-with-python/southern_sky.svg)</sup>
 
+## About the code
+
++ `coord_calc.py` calculates the coordinates on a 2d circular surface
++ `diagram.py` outputs the image
++ `input_file.py` processes the data in stardata.csv
++ `sky_area.py` defines the area of the sky to display on the map
++ `star_data.py`
++ `svg.py`
++ `main.py` the main script that imports all of the above and then runs
+
 The script is run by simply executing the main.py file, as follows:
 
 ```
 python main.py
 ```
 
-The SVG file will be created in the current directory, and will be named `star-chart.svg`
+The SVG file will be created in the current directory, and will be named `star-chart.svg` or whatever you name it in main.py.
 
 Please note that the script is designed to be run using Python 3; it will not run correctly with Python 2.
